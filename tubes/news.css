@@ -1,0 +1,93 @@
+body{
+    height: calc(100vh - 84px - 96px); 
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(img/teknologi-masa-kini.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: #fff;
+    height: cover;
+    
+}  
+  .header{
+    padding: 0px 24px ; 
+    height: 84px;}
+  
+  
+  
+  .footer{height: 96px}
+  .header-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "login-section"
+        "logo"
+        "head-halaman";
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        color: #fff;
+        }
+      
+      .login-start { 
+        grid-area: login-section ;
+        grid-area: login-section;
+        display: flex;
+        justify-content: flex-end; 
+    }
+
+    .header{
+        background-color:rgb(101, 101, 187) ;
+      }
+
+      .head-halaman{
+        background-color:rgb(101, 101, 187) ;
+        text-align: center;
+      }
+
+      .head-halaman a{
+        padding:  18px  18px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .footer{
+        text-align: center;
+        background-color:rgb(101, 101, 187) ;
+        color: #fff;
+      }
+
+      .footer a{
+        padding: 0 12px 0 12px;
+        color: black;
+      }
+
+     main{
+        color: #fff;
+     }
+
+     h2{
+        color: #fff;
+      }
+
+      .Desain{
+        color: #fff;
+        text-align: center;
+      }
+
+      .content-wrapper{
+        margin: 12px;
+        padding: 12px;
+      
+      }
+
+      .content-wrapper p{
+        font-size: 24px;
+      }
+      

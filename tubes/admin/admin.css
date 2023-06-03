@@ -1,0 +1,39 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    color: #111; 
+    background-color: chocolate; 
+   
+}
+main{
+    margin: 200px;
+    margin-left: 450px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50%;
+    background-color: darkkhaki;
+}
+a{
+    padding: 12px;
+    margin: 12px;
+}
+
+.colmn1{
+    display: flex;
+}
+textarea{
+    border-radius: 2px;
+    background-color: white;
+}
+
+.done-btn{
+    border-radius: 8px;
+    background: #3e3e3e;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 10%;
+}
+
+ 

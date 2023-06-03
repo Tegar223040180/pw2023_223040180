@@ -1,4 +1,3 @@
-<?php 
-$sitte ="about";
-require('views/about.view.php')
-?>
+<?php
+$title = 'About';
+include 'views/about.view.php';

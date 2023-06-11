@@ -20,7 +20,6 @@
 
 <!--label-->
 <section class="label">
-    <div class="container">
         <p>Home / Login</p>
     </div>
 </section>
@@ -28,38 +27,28 @@
 
 <!--about-->
 <section class="login">
-    <div class="container ">
-    <h2>Hallo Guys</h2>
-        <main>
+    
+    
         <div class="wrapper">
+        <div class="container ">
+        <h3>Login</h3>
             <form action="">
-            <label for="uname"><b>Name</b></label>
-            <input type="text" placeholder="Enter Name" name="name" required>
-
-            <label for="psw"><b>Username</b></label>
+            <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
 
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <label for="psw"><b>No.Telepon</b></label>
-            <input type="text" placeholder="Enter No.Telepon" name="ntp" required>
-
-            <label for="psw"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="Email" required>
-                <button type="submit"><a href="home.php">Register</a></button>
+                <button type="submit"><a href="../admin/admin.php">Login</a></button>
+                
+                <a href="../register/register.php">Register </a>
             </form>
         </div>
-        </main>
         </div>
 </section>
        
 
 <footer>
-    <div class="container">
+    <div class="footer">
         <small>Copyright &copy; 2023 - Tegar Samudra</small>
 
     </div>

@@ -15,7 +15,7 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 400px;   
+    margin-top: 200px;   
 }
 a{
     text-decoration: none;
@@ -39,9 +39,28 @@ input[type=password]{
     border-bottom: 1px solid #000;
     margin: 8px 0;
 }
+input[type=email]{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 8px 0; 
+}
+input[type=password]{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 8px 0;
+}
 label{
     margin-bottom: 24px;
     color: #111;
+    font-size: 15px;
 }
 button{
     margin-top: 24px;
@@ -51,4 +70,17 @@ button{
     border: none;
     font-size: 24px;
     margin: 8px 0;
+    background-color: cadetblue;
+}
+.container{
+    background-color: rosybrown;
+    width: 50%;
+    border-radius: 5px;
+}
+form{
+    margin: 12px;
+    
+}
+input{
+    border-radius: 5px;
 }

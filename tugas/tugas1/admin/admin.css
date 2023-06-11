@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: #111; 
-    background-color: chocolate; 
+    background-color: darkgray; 
    
 }
 main{
@@ -34,9 +34,6 @@ textarea{
     cursor: pointer;
     font-size: 14px;
     width: 10%;
-}
-input{
-    background-color: white;
 }
 
  

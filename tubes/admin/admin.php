@@ -1,3 +1,27 @@
+<?php 
+require '../functions.php';
+
+if ( isset ($_POST["done"]) ){
+    
+  // cek apakah data berhasil ditambahkan atau tidak
+  if( tambah($_POST) > 0) {
+      echo "
+          <script>
+              alert('Data berhasil ditambahkan!');
+              document.location.href = '../index.pgp/index.php';
+          </script>
+          ";
+  } else {
+      echo"
+          <script>
+              alert('Data gagal ditambahkan!');
+              document.location.href = '../index.pgp/index.php';
+          </script>
+          ";
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,16 +34,23 @@
 <body>
     <main>
         <div class="container">
-            <h1>Hllo Welcome To Admin </h1>
+            <h1>Hello Welcome To Admin </h1>
             <br>
-            
-            <label class="colmn1" for="add-txt">Addhere :</label>
-            <textarea name="add-txt" id="add-txt" cols="50" rows="10"></textarea>
+
+            <form action="" method="post">
+            <label for="judul">Judul :</label>
+            <input type="text" id="judul" name="judul">
+            <br><br>
+            <label for="gambar">Gambar :</label>
+            <input type="text" id="gambar" name="gambar">
+            <br><br>
+            <label class="colmn1" for="add-txt">Isi :</label>
+            <textarea name="isi" id="isi" cols="50" rows="10"></textarea>
             <br><br>
             <a href="../index.pgp/index.php">logout?</a>
             
             <button class="done-btn" type="submit" name="done">Done</button>
-
+            </form>
             
         </div>
     </main>

@@ -28,15 +28,23 @@
 <header>
     <div class="container">
     <h1><a href="index.php">Electric Car</a></h1>
+
     <ul>
-        <li ><a href="index.php">HOME</a></li>
+        <form action="" method="post">
+        
+
+        <li class="active"><a href="index.php">HOME</a></li>
         <li><a href="about.php">ABOUT</a></li>
-        <li class="active"><a href="contact.php">CONTACT</a></li>
-        <li><a href="login.php">LOGIN</a></li>    
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="../login/login.php">LOGIN</a></li>
+
+        <input type="text" name="keyword">
+        <button type="submit" name="cari">Cari</button>
+        
+        </form>    
     </ul>
 </div>
 </header>
-
 <!--label-->
 <section class="label">
     <div class="container">
